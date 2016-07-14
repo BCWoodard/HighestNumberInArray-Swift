@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     func findHighestNumberInArray() {
-        let array = [1, 7, 5, 76, 8, 2]
+        let array = [1, 7, 5, 47, 8, 2]
         var highestValue = array[0]
         
         for i in 0..<array.count {
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             }
         }
         
-        print(highestValue)
+        print("Highest Value: \(highestValue)")
     }
 
     override func didReceiveMemoryWarning() {
