@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AFFA96C1D38237700ABD1D4 /* HighestNumberInArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighestNumberInArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFFA96C1D38237700ABD1D4 /* HighestNumberInArray-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HighestNumberInArray-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFFA96F1D38237700ABD1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AFFA9711D38237700ABD1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AFFA9741D38237700ABD1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		4AFFA96D1D38237700ABD1D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AFFA96C1D38237700ABD1D4 /* HighestNumberInArray.app */,
+				4AFFA96C1D38237700ABD1D4 /* HighestNumberInArray-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AFFA96B1D38237700ABD1D4 /* HighestNumberInArray */ = {
+		4AFFA96B1D38237700ABD1D4 /* HighestNumberInArray-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AFFA97E1D38237700ABD1D4 /* Build configuration list for PBXNativeTarget "HighestNumberInArray" */;
+			buildConfigurationList = 4AFFA97E1D38237700ABD1D4 /* Build configuration list for PBXNativeTarget "HighestNumberInArray-Swift" */;
 			buildPhases = (
 				4AFFA9681D38237700ABD1D4 /* Sources */,
 				4AFFA9691D38237700ABD1D4 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = HighestNumberInArray;
+			name = "HighestNumberInArray-Swift";
 			productName = HighestNumberInArray;
-			productReference = 4AFFA96C1D38237700ABD1D4 /* HighestNumberInArray.app */;
+			productReference = 4AFFA96C1D38237700ABD1D4 /* HighestNumberInArray-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AFFA9671D38237700ABD1D4 /* Build configuration list for PBXProject "HighestNumberInArray" */;
+			buildConfigurationList = 4AFFA9671D38237700ABD1D4 /* Build configuration list for PBXProject "HighestNumberInArray-Swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AFFA96B1D38237700ABD1D4 /* HighestNumberInArray */,
+				4AFFA96B1D38237700ABD1D4 /* HighestNumberInArray-Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +252,7 @@
 				INFOPLIST_FILE = HighestNumberInArray/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elementC.HighestNumberInArray;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "HighestNumberInArray-Swift";
 			};
 			name = Debug;
 		};
@@ -263,14 +263,14 @@
 				INFOPLIST_FILE = HighestNumberInArray/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elementC.HighestNumberInArray;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "HighestNumberInArray-Swift";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AFFA9671D38237700ABD1D4 /* Build configuration list for PBXProject "HighestNumberInArray" */ = {
+		4AFFA9671D38237700ABD1D4 /* Build configuration list for PBXProject "HighestNumberInArray-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AFFA97C1D38237700ABD1D4 /* Debug */,
@@ -279,7 +279,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AFFA97E1D38237700ABD1D4 /* Build configuration list for PBXNativeTarget "HighestNumberInArray" */ = {
+		4AFFA97E1D38237700ABD1D4 /* Build configuration list for PBXNativeTarget "HighestNumberInArray-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AFFA97F1D38237700ABD1D4 /* Debug */,
